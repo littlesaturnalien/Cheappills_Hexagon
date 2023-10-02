@@ -17,6 +17,7 @@ footer {
 }
 .topnav2 li {
     color:#EAD9C7;
+    font-weight: bold;
     display: block;
     padding: 16px;
     background-color: #003F5A;

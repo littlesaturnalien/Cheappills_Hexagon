@@ -1,0 +1,17 @@
+h1 h3 {
+    font-family: "QUaaykop";
+    font-weight: bold;
+}
+h1 {
+    color: #FEA02F;
+    border: 15px solid #EAD9C7;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+h3 {
+    color: #003F5A;
+    text-align: center;
+}

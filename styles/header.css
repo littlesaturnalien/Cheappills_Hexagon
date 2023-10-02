@@ -1,9 +1,16 @@
 header {
-    background-image: linear-gradient(#EAD9C7,white);
-    font-family: "Quaaykop";
-    font-weight: bold;
+    background-image : linear-gradient(#EAD9C7,white);
+    font-family : "Quaaykop";
+    font-weight : bold;
     width: 100%;
-    height: 150px;
+    height: 200px;
+}
+.AAAA button {
+    background-color : transparent;
+    font-family : "Quaaykop";
+    border: none;
+    display: inline;
+    float: right;
 }
 .contenedorlogos {
     width: 100%;
@@ -13,17 +20,17 @@ header {
     width: 100%;
     height: auto;
 }
-.NBheader ol{
+.NBheader ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-.topnav a{
+.topnav a {
     text-decoration: none;
     color:#EAD9C7;
 }
-.topnav a:hover{
+.topnav a:hover {
     color: #FEA02F;
 }
 .topnav li {
