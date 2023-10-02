@@ -1,14 +1,36 @@
 header {
-    background-image:linear-gradient(#EAD9C7,white);
-    font-family:"Quaaykop";
-    font-weight:bold;
+    background-image: linear-gradient(#EAD9C7,white);
+    font-family: "Quaaykop";
+    font-weight: bold;
+    width: 100%;
+    height: 150px;
 }
-.contenedorlogos{
-    width:100%;
-    max-width:200px;
+.contenedorlogos {
+    width: 100%;
+    height: auto;
 }
 .logo {
-    max-width:200px;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
-
+.NBheader ol{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.topnav a{
+    text-decoration: none;
+    color:#EAD9C7;
+}
+.topnav a:hover{
+    color: #FEA02F;
+}
+.topnav li {
+    color:#EAD9C7;
+    display: block;
+    padding: 16px;
+    background-color: #003F5A;
+    float: right;
+    text-align: center;
+}

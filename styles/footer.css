@@ -1,4 +1,25 @@
-footer{
+footer {
     background-color:#003F5A;
     font-family:"Quaaykop";
+}
+.NBfooter ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.topnav2 a {
+    text-decoration: none;
+    color:#EAD9C7;
+}
+.topnav2 a:hover {
+    color: #FEA02F;
+}
+.topnav2 li {
+    color:#EAD9C7;
+    display: block;
+    padding: 16px;
+    background-color: #003F5A;
+    float: left;
+    text-align: center;
 }
