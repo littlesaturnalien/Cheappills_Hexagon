@@ -3,29 +3,39 @@ header {
     font-family : "Quaaykop";
     font-weight : bold;
     width: 100%;
-    height: 200px;
+    height: 9.375rem;
 }
 .AAAA button {
     background-color : transparent;
     font-family : "Quaaykop";
     border: none;
-    display: inline;
+    display: inline-block;
     float: right;
+    vertical-align: bottom;
 }
 .contenedorlogos {
-    width: 100%;
+    width: 11.25rem;
     height: auto;
 }
 .logo {
     width: 100%;
     height: auto;
+    margin: 0.938;
 }
-.NBheader ol {
+.NBheader {
+    width:25%;
+    border-radius: 35px;
+    background-color: #003F5A ;
+    padding: 0;
+    display: inline-block;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-}
+    position: absolute;
+    left: 82.5%;
+    top: 20%;
+    transform: translate(-50% , -50%);
+}   
 .topnav a {
     text-decoration: none;
     color:#EAD9C7;
@@ -36,8 +46,21 @@ header {
 .topnav li {
     color:#EAD9C7;
     display: block;
-    padding: 16px;
-    background-color: #003F5A;
-    float: right;
+    padding: 0.813rem;
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    float: left;
     text-align: center;
+}
+.fs1{
+    font-size: 60px;
+}
+.fs2{
+    font-size: 50px;
+}
+.fs3{
+    font-size: 40px;
+}
+.fs4{
+    font-size: 30px;
 }

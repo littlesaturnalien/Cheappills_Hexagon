@@ -1,0 +1,61 @@
+h1, h3 {
+    color: #007A7B;
+    font-weight: bold;
+}
+h1 {
+    font-family: "Quaaykop";
+}
+h3 {
+    font-family: "Sanlulus";
+    margin-left: 50px;
+}
+.ayptitulos {
+    border-radius: 100px;
+    background-color: #EAD9C7;
+    padding: 15px 50px;
+    display:inline-block;
+    margin-bottom: 50px;
+}    
+body{
+    background-image: url(../images/Patrón\ #2_BEIGE_EJEMPLO.png)
+}
+label {
+    font-family: "Quaaykop";
+    font-weight: bold;
+    font-size: 20px;    
+}
+input[type=text], select {
+    font-family: "Sanlulus";
+    font-style: italic;
+    font-size: 18px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 30px 40px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    font-family: "Quaaykop";
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    background-color: #007A7B;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#contendorform {
+    border-radius: 30px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+#ayudaform {
+    border-radius: 35px;
+    background-color: rgba(234, 217, 199, 0.7) ;
+    padding: 20px;
+}

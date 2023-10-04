@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>Cheappills</title>
+    <link rel="stylesheet" href="../styles/body_ayuda.css">
 </head>
 
 <body>
@@ -63,55 +64,29 @@
 
 
     <div>
-        <div>
+        <div class="ayptitulos">
             <div>
                 <h1>Tu opinión importa</h1>
             </div>
             <div>
-                <h3>Envianos tus preguntas y comentarios para mejorar la experiencia Cheappills</h3>
-            </div>
-            <div>
-                <span>fondo</span>
+                <h3>Envíanos tus preguntas y comentarios para mejorar la experiencia Cheappills</h3>
             </div>
         </div>
-        <div>
-            <div>
-                <div>
-                    <div>
-                        <span>Nombre (opcional)</span>
-                    </div>
-                    <div>
-                        Fondo
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Correo electrónico (opcional)</span>
-                    </div>
-                    <div>
-                        Fondo
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Preguntazs o comentarios</span>
-                    </div>
-                    <div>
-                        Fondo
-                    </div>
-                </div>
+        <div id="contenedorform">
+            <div id="ayudaform">
+                <form action="/action_page.php">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="Tu nombre (opcional)" placeholder="Tu nombre (opcional)">
+            
+                    <label for="correo">Correo electrónico</label>
+                    <input type="text" id="correo" name="Tu correo electrónico (opcional)" placeholder="Tu correo electrónico (opcional)">
+            
+                    <label for="poc">Mensaje</label>
+                    <input type="text" id="poc" name="Tus preguntas o comentarios" placeholder="Tus preguntas o comentarios">
+              
+                    <input type="submit" value="Enviar">
+              </form>
             </div>
-            <div>
-                <div>
-                    <span>Enviar</span>
-                </div>
-                <div>
-                    <span>Fondo</span>
-                </div>
-            </div>
-        </div>
-        <div>
-            <span>Fondo_con_pastillas</span>
         </div>
     </div>
 
