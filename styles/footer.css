@@ -1,6 +1,17 @@
+.contenedorlogos {
+    width: 11.25rem;
+    height: auto;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    margin: 0.938rem;
+}
 footer {
     background-color:#003F5A;
     font-family:"Quaaykop";
+    width:100%;
+    height: 15.625rem;
 }
 .NBfooter ol {
     list-style-type: none;

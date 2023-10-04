@@ -1,17 +1,23 @@
+body{
+    margin:0;
+}
 header {
     background-image : linear-gradient(#EAD9C7,white);
     font-family : "Quaaykop";
     font-weight : bold;
     width: 100%;
     height: 9.375rem;
+    margin-bottom: 60;
 }
-.AAAA button {
+.AAAA {
     background-color : transparent;
     font-family : "Quaaykop";
     border: none;
-    display: inline-block;
     float: right;
+    margin-top:1.1rem;
+    margin-right:3.0rem;
     vertical-align: bottom;
+    text-align: right;
 }
 .contenedorlogos {
     width: 11.25rem;
@@ -20,7 +26,7 @@ header {
 .logo {
     width: 100%;
     height: auto;
-    margin: 0.938;
+    margin: 0.938rem;
 }
 .NBheader {
     width:25%;
@@ -33,7 +39,7 @@ header {
     overflow: hidden;
     position: absolute;
     left: 82.5%;
-    top: 20%;
+    top: 14%;
     transform: translate(-50% , -50%);
 }   
 .topnav a {
@@ -47,20 +53,23 @@ header {
     color:#EAD9C7;
     display: block;
     padding: 0.813rem;
-    margin-right: 0.625rem;
-    margin-left: 0.625rem;
+    margin-right: 0.69rem;
+    margin-left: 0.69rem;
     float: left;
     text-align: center;
 }
 .fs1{
-    font-size: 60px;
+    font-size: 1.5rem;
+    color: #000;
+    text-decoration: none;
 }
 .fs2{
-    font-size: 50px;
+    font-size: 1.75rem;
+    color: #000;
+    text-decoration: none;
 }
 .fs3{
-    font-size: 40px;
-}
-.fs4{
-    font-size: 30px;
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
 }
