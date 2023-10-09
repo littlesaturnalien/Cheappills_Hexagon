@@ -45,71 +45,89 @@ input[type="search"]::-webkit-search-cancel-button:hover {
     background-image: url(../images/cancel_button2.PNG);
 }
 
-.info-med h4{
-    display: inline;
-    font-size: 1.5rem;
-    font-family: "Quaaykop";
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+/**/
+
+.all-medicine-container {
+    width: 100%;
+    height: 100%;
 }
 
-.indication {
-    margin-left: 1rem !important;
-}
-
-.distributor {
-    margin-right: 1rem !important;
-}
-
-.info-med {
-    border: .4rem solid #FFFFFF;
+.header_information {
+    display: inline-flex;
+    border: .4rem solid #007A7B;
     border-radius: 2rem;
-    border-color: #007A7B;
-    padding: 0;
-    display: inline-block;
-    position: relative;
-    left: 24%;
+    position: absolute;
+    top: 12%;
+    left: 23.5%;
 }
 
-.image-container {
+.header_information h4 {
+    margin: 0;
+    margin-left: 4.5vw;
+    margin-right: 4.5vw;
+    font-family: "Quaaykop";
+    font-size: 2.5vw;
+    color: #003F5A;
+}
+
+.header_information .indication {
+    margin-left: .5rem;
+}
+
+.header_information .distributor {
+    margin-right: .5rem;
+}
+
+.all-image-name-container {
+    display: inline-block;
+    align-items: center;
+}
+
+.all-image-name-container .name-container{
+    font-size: 2vw;
+    color: #fea02f;
+    margin:0;
+    margin-top: .7em;
+    text-align: center;
+}
+
+.all-image-name-container .image-container {
     display: flex;
-    width: 15.625rem;
-    height: 15.625rem;
-    border: .2rem solid #003F5A;
+    border: .2em solid #003F5A;
+    width: 20vw;
+    height: 20vw;
     border-radius: 50%;
     overflow: hidden;
     align-items: center;
-
 }
 
-.product-image {
+.all-image-name-container .image-container .real-image {
     object-fit: cover;
-    width: 90%;
-    margin: 8%;
+    width:100%;
+    height: 100%;
 }
 
-.image-name-product h4 {
-    font-size: 1.5rem;
-    font-family: "Quaaykop";
-    text-align: center;
-    color: #fea02f;
-    margin:0;
-    margin-top: .85rem;
+
+.all-medicine-container .information-container{
+    display: inline-flex;
+    margin: 0;
+    width: 73%;
+    position: absolute;
+    top:18%;
+    left: 21%;
 }
 
-.image-name-product {
-    display: inline-block;
-    vertical-align: middle;
+.all-medicine-container .information-container .inf{
+    width: 24%;
+    max-width: 24%;
+    overflow: hidden;
+    text-align: justify;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-bottom: 0;
 }
-
-.information-container{
-    display:inline;
+.all-medicine-container .information-container .inf{
+    font-size: 1.5vw;
+    font-family: "Sanlulus";
+    line-height: 1.1;
 }
-
-.information-container p{
-    display:inline;
-    margin-left:5rem;
-    margin-right:5rem;
-}
-
-  

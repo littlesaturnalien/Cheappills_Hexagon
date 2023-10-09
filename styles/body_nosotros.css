@@ -1,26 +1,18 @@
-h1, h3 {
+h1, h2 {
     font-family: "Quaaykop";
     font-weight: bold;
 }
 h1 {
-    color: #FEA02F;
-    text-align: center;
-    border: .938rem solid #EAD9C7;
-    border-radius: 3.125rem;
-    padding: .625rem;
-    vertical-align: middle;
-}
-h3 {
-    color: #003F5A;
-    text-align: center;
-}
-h2 {
     color: #007A7B;
     text-align: center;
+    vertical-align: middle;    
     border-radius: 6.25rem;
     background-color: #EAD9C7;
     padding: .938rem 3.125rem;
     display:inline-block;
     margin-bottom: 3.125rem;
     align-items: center;
+}
+.asociados-cheappills{
+    color: #003F5A;    
 }
