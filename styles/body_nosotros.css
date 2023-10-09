@@ -16,3 +16,27 @@ h1 {
 .asociados-cheappills{
     color: #003F5A;    
 }
+p {
+    font-family: "Sanlulus";
+}
+.p-nosotros {
+    text-align: justify;
+    margin-left:20px;
+    margin-right:20px;
+}
+.p-vision {
+    text-align:left;
+    margin-left:20px;
+    margin-right:100px;
+}
+.p-valores {
+    text-align:right;
+    margin-right:20px;
+    margin-left:100px;
+}
+.span-bold {
+    font-weight:bold;
+}
+.span-hl {
+    color:#007A7B;
+}
