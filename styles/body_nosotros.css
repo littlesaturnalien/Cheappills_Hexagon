@@ -69,9 +69,9 @@ p {
     color:#ca0808;
 }
 .fondo-nosotros {
-    background-image: url('../images/PATRONSITIO#1_FONDO.png');
+    background-image: url('../images/Patron.png');
     background-size:cover;
-    background-repeat:repeat-y;    
+    background-repeat:repeat-y;
 }
 .equipo-row1 {
     display:flex;
