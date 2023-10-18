@@ -3,6 +3,7 @@ h1, h3 {
     font-weight: bold;
 }
 h1 {
+    font-size:2.3em;
     color: #FEA02F;
     text-align: center;
     border: .938rem solid #EAD9C7;
@@ -11,10 +12,12 @@ h1 {
     vertical-align: middle;
 }
 h3 {
+    font-size:1.6em;
     color: #003F5A;
     text-align: center;
 }
 h2 {
+    font-size:1.9em;
     color: #007A7B;
     text-align: center;
     border-radius: 6.25rem;
@@ -23,4 +26,12 @@ h2 {
     display:inline-block;
     margin-bottom: 3.125rem;
     align-items: center;
+}
+p {
+    font-size:1.2em;
+    font-family: "Sanlulus";
+}
+.titulos-align{
+    display:flex;
+    justify-content: center;
 }

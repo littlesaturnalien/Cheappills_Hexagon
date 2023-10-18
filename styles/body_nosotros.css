@@ -3,40 +3,83 @@ h1, h2 {
     font-weight: bold;
 }
 h1 {
+    font-size:2.3em;
     color: #007A7B;
     text-align: center;
     vertical-align: middle;    
-    border-radius: 6.25rem;
+    border-radius: 3.5em;
     background-color: #EAD9C7;
-    padding: .938rem 3.125rem;
     display:inline-block;
-    margin-bottom: 3.125rem;
-    align-items: center;
+    padding:1vw 2vw;
+    margin-bottom: 2vw;
+}
+h2 {
+    font-size:1.9em;
+    color: #007A7B;
+    background-color: #EAD9C7;
+    border-radius: 3.5em;
+    display:inline-block;
+    padding:1vw 2vw;
+    margin-bottom: 2vw;
+}
+.contenedor-vision {
+    display:flex;
+    justify-content: flex-start;
+}
+.contenedor-valores {
+    display:flex;
+    justify-content: flex-end;
 }
 .asociados-cheappills{
     color: #003F5A;    
 }
 p {
     font-family: "Sanlulus";
+    font-size:1.2em;
+    line-height: 2em;
+}
+.title-align {
+    display:flex;
+    justify-content: center;
+}
+.contenedor-nosotros-texto {
+    margin-left:12vw;
+    margin-right:12vw;
 }
 .p-nosotros {
-    text-align: justify;
-    margin-left:20px;
-    margin-right:20px;
+    text-align:justify;
 }
 .p-vision {
     text-align:left;
-    margin-left:20px;
-    margin-right:100px;
+    margin-left:2.5vw;
+    margin-right:45vw;
 }
 .p-valores {
     text-align:right;
-    margin-right:20px;
-    margin-left:100px;
+    margin-right:2.5vw;
+    margin-left:45vw;
 }
 .span-bold {
     font-weight:bold;
 }
 .span-hl {
     color:#007A7B;
+}
+.span-hl2 {
+    color:#ca0808;
+}
+.fondo-nosotros {
+    background-image: url('../images/PATRONSITIO#1_FONDO.png');
+    background-size:cover;
+    background-repeat:repeat-y;    
+}
+.equipo-row1 {
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
+}
+.equipo-row2 {
+    display:flex;
+    justify-content: center;
+    flex-direction:row;
 }
