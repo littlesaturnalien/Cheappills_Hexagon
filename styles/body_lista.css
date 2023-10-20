@@ -1,0 +1,215 @@
+.box-search-bar {
+    border: .4rem solid #FFFFFF;
+    border-radius: 2rem;
+    border-color: #007A7B;
+    padding: 0;
+    width: 75%;
+    height: 2.1rem;
+    align-items: center;
+    display: flex;
+}
+
+.search-container input[type="search"] {
+    font-family: "Sanlulus";
+    font-size: 20px;
+    font-style: italic;
+    color: #003F5A;
+    box-sizing: border-box;
+    border: none;
+    padding: .3rem;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    left: 2%;
+    /*outline:none*/
+}
+
+#search-button {
+    width: 55rem;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    position: relative;
+    right: 20px;
+    -webkit-appearance: none;
+
+    background-image: url(../images/cancel_button.PNG);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 20px;
+    width: 20px;
+    transition: background-image 0.3s ease;
+}
+
+input[type="search"]::-webkit-search-cancel-button:hover {
+    background-image: url(../images/cancel_button2.PNG);
+}
+
+/**/
+
+.father{
+    display: flex;
+    flex-direction: column;
+}
+.all-medicine-container {
+    width: 80%;
+    height: 100%;
+    margin-bottom: 1em;
+}
+
+.header_information {
+    display: inline-flex;
+    border: .4rem solid #007A7B;
+    border-radius: 2rem;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+}
+
+.header_information h4 {
+    margin: 0;
+    margin-left: 2.2vw;
+    margin-right: 2.2vw;
+    font-family: "Quaaykop";
+    font-size: 2.5vw;
+    color: #003F5A;
+}
+
+.header_information .indication {
+    margin-left: .5rem;
+}
+
+.header_information .distributor {
+    margin-right: .5rem;
+}
+
+.all-image-name-container {
+    display: inline-block;
+    align-items: center;
+}
+
+.all-image-name-container .name-container{
+    font-size: 1.7vw;
+    color: #fea02f;
+    margin:0;
+    margin-top: .7em;
+    text-align: center;
+}
+
+.all-image-name-container .image-container {
+    display: flex;
+    border: .2em solid #003F5A;
+    width: 13vw;
+    height: 13vw;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 2em;  
+}
+
+
+
+.all-image-name-container .image-container .real-image {
+    object-fit: cover;
+    width:100%;
+    height: 100%;
+    transition: filter, ease 0.5s;
+}
+
+.all-image-name-container .image-container:hover .real-image{
+    filter: blur(5px);
+}
+
+
+.all-image-name-container .image-container .add-list{
+    display: none;
+    border-radius: 50%;
+    width: 3vw;
+    height: auto;
+}
+
+.all-image-name-container .image-container:hover .add-list{
+    display: flex;
+    position:absolute;
+    left: 20%;
+    z-index: 100;
+    cursor:pointer;
+}
+
+.all-image-name-container .image-container .delete-list{
+    display: none;
+    border-radius: 50%;
+    width: 3vw;
+    height: auto;
+}
+
+.all-image-name-container .image-container:hover .delete-list{
+    display: flex;
+    position:absolute;
+    left: 5.8%;
+    z-index: 100;
+    cursor:pointer;
+}
+.all-medicine-container .information-container{
+    display: flex;
+    flex-direction:row;
+    margin: 0;
+    margin-left: 3em;
+    width: 80%;
+}
+
+.all-medicine-container .information-container .inf{
+    flex:auto;
+    overflow: hidden;
+    text-align: justify;
+    margin-bottom: 0;
+    margin-top: 4em;
+}
+
+#inf-ind{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    max-width: 30%;
+}
+
+#inf-pri{
+    margin-left: 2vw;
+    margin-right: 2vw;
+   
+}
+
+#inf-lab{
+    margin-left: 2vw ;
+    margin-right: 2vw;
+    max-width: 20%;
+}
+
+#inf-dis{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    
+}
+
+
+
+
+.all-medicine-container .information-container .inf{
+    font-size: 1.5vw;
+    font-family: "Sanlulus";
+    line-height: 1.1;
+}
+
+.all-medicine-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-search-bar{
+    display: inline-flex;
+}
+.gotolist{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+    cursor: pointer;
+}

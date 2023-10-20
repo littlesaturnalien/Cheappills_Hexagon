@@ -1,0 +1,101 @@
+h1, h3 {
+    color: #007A7B;
+    font-weight: bold;
+}
+h1 {
+    font-size:2.3em;
+    font-family: "Quaaykop";
+}
+h3 {
+    font-size:1.6em;
+    font-family: "Sanlulus";
+    margin-left:3.125rem;
+}
+p {
+    font-size: 1.2em;
+    font-family: "Sanlulus";
+}
+.ayptitulos {
+    border-radius: 6.25rem;
+    background-color: #EAD9C7;
+    padding: 0.938rem 3.125rem;
+    display:inline-block;
+    margin-bottom: 3.125rem;
+    margin-left: 2.5rem;
+}    
+/*.allform{
+    background-image: url(../images/Patrón\ #2_BEIGE_EJEMPLO.png) !important;
+    background-repeat: repeat;
+}*/
+label {
+    font-family: "Quaaykop";
+    font-weight: bold;
+    font-size: 1.3em;
+    padding-left:1rem;  
+}
+input[type=text], select {
+    font-family: "Sanlulus";
+    font-style: italic;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    margin: 1.25rem 1.875rem 2.5rem;
+    display: inline-block;
+    border: 0.063rem solid #ffffff;
+    border-radius: 3.125rem;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    font-family: "Quaaykop";
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 100%;
+    background-color: #007A7B;
+    color: white;
+    padding: 0.875rem 1.25rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 3.125rem;
+    cursor: pointer;
+}
+.fondo-ayuda {
+    position: absolute;
+    z-index: 1;
+}
+#contendorform {
+    text-align: center;
+    border-radius: 3rem;
+    background-color: #f2f2f2;
+    padding: 1.25rem;
+    margin-left:15rem;
+    margin-right:15rem;
+    position: absolute;
+    z-index: 2;
+}
+#ayudaform {
+    border-radius: 3.125rem;
+    background-color: rgba(234, 217, 199, 0.7) ;
+    padding: 1.25rem;
+    padding-top: 2rem !important;
+    margin-left:15rem;
+    margin-right:15rem;
+}
+#nombre, #correo, #poc {
+    width: 90%;
+}
+#poc {
+    padding-bottom: 15rem;
+    border-radius: 2rem !important;
+}
+#enviar {
+    margin: auto;
+    width: 50%;
+    padding: .625rem;
+    max-width: 6rem;
+    min-width: 6rem; 
+}
+.enviarbutton {
+    margin: auto;
+    width: 9.8%;
+    padding: .625rem;
+}

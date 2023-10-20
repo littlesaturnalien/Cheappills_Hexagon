@@ -8,4 +8,3 @@
         <embed src="../tablas_usuarios/tabla.pdf" type="application/pdf" width="100%" height="600px">
     </body> 
 </html>
-

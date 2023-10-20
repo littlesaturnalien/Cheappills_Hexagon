@@ -1,0 +1,137 @@
+h1, h3 {
+    font-family: "Quaaykop";
+    font-weight: bold;
+}
+h1 {
+    font-size:2.3em;
+    color: #FEA02F;
+    text-align: center;
+    border: .938rem solid #EAD9C7;
+    border-radius: 3.125rem;
+    padding: .625rem;
+    vertical-align: middle;
+    margin-left:2vw;
+    margin-right:2vw;
+}
+h3 {
+    font-size:1.6em;
+    color: #003F5A;
+    text-align: center;
+}
+h2 {
+    font-size:1.9em;
+    color: #007A7B;
+    text-align: center;
+    border-radius: 6.25rem;
+    background-color: #EAD9C7;
+    padding: .938rem 3.125rem;
+    display:inline-block;
+    margin-bottom: 3.125rem;
+    align-items: center;
+    margin-left:2vw;
+    margin-right:2vw;
+}
+p {
+    font-size:1.2em;
+    font-family: "Sanlulus";
+}
+.titulos-align{
+    display:flex;
+    justify-content: center;
+}
+.major-container-catalogue-slidebar{
+    background-color:#EAD9C7;
+    border-radius: 2vw;
+    margin-left: 2vw;
+    padding-top:0.5vw;
+    padding-bottom:0.5vw;
+    max-height: 70%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+.major-container-catalogue-slidebar::-webkit-scrollbar {
+    width: .5em; 
+}
+
+.major-container-catalogue-slidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.major-container-catalogue-slidebar::-webkit-scrollbar-thumb {
+    background: #007A7B; 
+}
+
+.major-container-catalogue-slidebar::-webkit-scrollbar-thumb:hover {
+    background: #015757; 
+}
+
+.major-container-catalogue-slidebar::-ms-scrollbar {
+    width: 10
+
+}
+
+.catalogue-slidebar-info {
+    color:#003F5A;
+    font-family: "Sanlulus";
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    display:block;
+    padding:1vw 1.5vw 1vw 1.5vw;
+    margin:0;
+}
+.catalogue-slidebar-info:hover {
+    color:#EAD9C7;
+    font-family: "Sanlulus";
+    background-color: #003F5A;
+    border-radius:3vw;
+}
+
+.all-line-container{
+    display: flex;
+    flex-direction: row;
+    gap: .9em;
+}
+
+.all-carousel-container{
+    align-items: center;
+    width: 60%;
+}
+.all-carousel-container img{
+    width: 100%;
+    border: 1em solid #EAD9C7 ;
+    border-radius: 10%;
+}
+
+.all-carousel-container .button-carousel{
+    font-size: 1.6em;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .7);
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    color: #ffffff;
+    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all.3s ease;
+}
+.all-carousel-container .button-carousel:hover{
+    cursor:pointer;
+    transform: scale(1.2,1.2);
+}
+
+.all-carousel-container .back{
+    position: absolute;
+    left: 20%;
+    top: 90%;
+}
+
+.all-carousel-container .forward{
+    position: absolute;
+    right: 26.5%;
+    top: 90%;
+}
