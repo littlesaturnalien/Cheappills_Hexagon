@@ -23,10 +23,6 @@ p {
     margin-bottom: 3.125rem;
     margin-left: 2.5rem;
 }    
-/*.allform{
-    background-image: url(../images/Patrón\ #2_BEIGE_EJEMPLO.png) !important;
-    background-repeat: repeat;
-}*/
 label {
     font-family: "Quaaykop";
     font-weight: bold;
@@ -57,10 +53,6 @@ input[type=submit] {
     border: none;
     border-radius: 3.125rem;
     cursor: pointer;
-}
-.fondo-ayuda {
-    position: absolute;
-    z-index: 1;
 }
 #contendorform {
     text-align: center;
@@ -98,4 +90,8 @@ input[type=submit] {
     margin: auto;
     width: 9.8%;
     padding: .625rem;
+}
+.allform {
+    background-image: url(../images/Patron.png);
+    background-repeat: repeat-y;
 }

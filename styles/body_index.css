@@ -78,30 +78,14 @@ p {
     max-width: 70%;
     height: 30%;
     border: .3rem solid #EAD9C7;
-    position: relative;;
+    position: relative;
+    overflow-x:scroll;
     overflow: hidden;
+    scroll-snap-type: x mandatory;
 }
-.container-carousel ul {
-    display:flex;
-    padding:0;
-    width:250;
-    animation: slide 5s infinite alternate ease-in-out;
-}
-.container-carousel li {
+.image-carousel {
+    flex: 0 0 100%;
     width:100%;
-    list-style:none;
-    position:relative;
-}
-@keyframes slide {
-    0%: {margin-left: 0;}
-    20%: {margin-left: 0;}
-
-    25%: {margin-left: -100%;}
-    40%: {margin-left: -100%;}
-
-    50%: {margin-left: -100%;}
-    70%: {margin-left: -100%;}
-
-    75%: {margin-left: -100%;}
-    100%: {<margin-left :(-300%)>;}
+    object-fit:cover;
+    scroll-snap-align: center;
 }
