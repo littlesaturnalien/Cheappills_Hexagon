@@ -81,9 +81,7 @@ input[type=submit] {
     margin-right:15rem;
 }
 #nombre, #correo, #poc {
-    width: 100%;
-    max-width: 57rem;
-    min-width: 57rem;
+    width: 90%;
 }
 #poc {
     padding-bottom: 15rem;

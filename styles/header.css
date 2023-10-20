@@ -52,9 +52,9 @@ header {
 .topnav li {
     color:#EAD9C7;
     display: block;
-    padding: 0.813rem;
-    margin-right: 0.69rem;
-    margin-left: 0.69rem;
+    padding: 1vw;
+    margin-right: 1.3vw;
+    margin-left: 1.3vw;
     float: left;
     text-align: center;
 }
