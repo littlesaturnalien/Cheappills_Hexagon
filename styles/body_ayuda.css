@@ -1,3 +1,6 @@
+*{
+    margin-left:0;
+}
 h1, h3 {
     color: #007A7B;
     font-weight: bold;
@@ -17,11 +20,13 @@ p {
 }
 .ayptitulos {
     border-radius: 6.25rem;
+    border-start-start-radius:0;
+    border-end-start-radius:0;
     background-color: #EAD9C7;
-    padding: 0.938rem 3.125rem;
+    padding: 1vw 5vw 1vw 3vw;
     display:inline-block;
     margin-bottom: 3.125rem;
-    margin-left: 2.5rem;
+    margin-left:0;
 }    
 label {
     font-family: "Quaaykop";
